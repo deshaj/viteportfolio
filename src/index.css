@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+  --primary: #9333ea; 
+  --secondary: #6c757d;
+  --card: #f5f5f5;
+
+  /* Navbar Colors - Light Mode */
+  --nav-bg: #ffffff;
+  --nav-text: #000000;
+  --nav-border: #e5e7eb;
+  --nav-highlight: #9333ea;
+}
+
+.dark {
+  --background: #000000;
+  --foreground: #ffffff;
+  --primary: #a855f7; 
+  --secondary: #9ca3af;
+  --card: #111111;
+
+  /* Navbar Colors - Dark Mode */
+  --nav-bg: #18181b; 
+  --nav-text: #ffffff;
+  --nav-border: #27272a;
+  --nav-highlight: #c084fc; 
+}
+
+/* Base style navbar */
+.adaptive-nav {
+  background-color: var(--nav-bg);
+  color: var(--nav-text);
+  border-color: var(--nav-border);
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+/* --- ANIMATED THEME TOGGLE UTILITIES --- */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+::view-transition-new(root) {
+  z-index: 9999;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+.wmde-markdown ul {
+  list-style-type: disc !important;
+  padding-left: 1.5em !important;
+  margin-bottom: 1em;
+}
+
+.wmde-markdown ol {
+  list-style-type: decimal !important;
+  padding-left: 1.5em !important;
+  margin-bottom: 1em;
+}
+
+.wmde-markdown h1, .wmde-markdown h2, .wmde-markdown h3 {
+  border-bottom: none !important;
+  margin-top: 1.5em !important;
+  margin-bottom: 0.5em !important;
+}
+
+.wmde-markdown pre {
+  background-color: #1e1e1e !important;
+  border-radius: 0.5rem;
+}
+
+[data-color-mode="light"] .wmde-markdown pre code {
+  color: #f8f8f2 !important;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); 
+  }
+}
+
+.animate-scroll {
+  animation: scroll 40s linear infinite;
+}
+
+.animate-scroll:hover {
+  animation-play-state: paused;
+}
+
+
+.mask-gradient {
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
