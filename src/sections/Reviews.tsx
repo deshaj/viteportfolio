@@ -8,35 +8,35 @@ import { Highlighter } from '../components/ui/TextHighlighter';
 const PLACEHOLDERS = [
   {
     id: 'dummy-1',
-    name: "Alex Chen",
-    role: "Tech Lead",
-    content: "The Discord bot features are insane. It handles thousands of users without lag. Highly recommended for complex projects.",
+    name: "jay_x20",
+    role: "BBB Purchaser",
+    content: "Amazing Config, amazing developer will be buying stuff from them in the future completely 10/10 support",
     rating: 5,
-    avatar_url: "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex"
+    avatar_url: "https://i1.sndcdn.com/avatars-000684931601-e5w4vv-t500x500.jpg"
   },
   {
     id: 'dummy-2',
-    name: "Sarah Jones",
-    role: "Community Manager",
-    content: "The website UI is so smooth! The animations and dark mode implementation are perfect. Love the attention to detail.",
+    name: "Riley",
+    role: "BBB Purchaser",
+    content: "Recently got this for my server, and it is actually amazing, amazing developer 10/10 support, will be purchasing more things from them in the near future.",
     rating: 5,
-    avatar_url: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah"
+    avatar_url: "https://cdn.builtbybit.com/avatars/l/494/494382.jpg?1762694213"
   },
   {
     id: 'dummy-3',
-    name: "Mike Ross",
-    role: "Freelancer",
-    content: "Professional, fast, and talented. The admin dashboard saves me hours of work every week.",
+    name: "XS70",
+    role: "BBB Purchaser",
+    content: "W setup. legit saved me allot of time! Worth downloading the price lol",
     rating: 5,
-    avatar_url: "https://api.dicebear.com/7.x/avataaars/svg?seed=Mike"
+    avatar_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbqhh4AfvCC3ew_kPMkxo5cGcV7EpjkA0qRw&s"
   },
   {
     id: 'dummy-4',
-    name: "Emily White",
-    role: "Designer",
-    content: "Clean code and pixel-perfect implementation. Exactly what I was looking for!",
+    name: "Abood",
+    role: "Colleague",
+    content: "My experience with deshaj has been nothing short of an exceptional time for me, I started out with zero knowledge of anything and he was there to witness it all and help me along the way, he showed exceptional work in the time we worked together in, I highly recommend him for any project no matter the rank as he showed he's capable of any task given to him and frankly I wouldn't be where I am within the community without his help.",
     rating: 5,
-    avatar_url: "https://api.dicebear.com/7.x/avataaars/svg?seed=Emily"
+    avatar_url: "https://cdn.discordapp.com/avatars/759154083378233370/6c84e2f3c13b16afc9787eda15bd6ce7.png?size=256"
   }
 ];
 
