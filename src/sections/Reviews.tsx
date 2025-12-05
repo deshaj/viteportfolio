@@ -34,7 +34,7 @@ const PLACEHOLDERS = [
     id: 'dummy-4',
     name: "Abood",
     role: "Colleague",
-    content: "My experience with deshaj has been nothing short of an exceptional time for me, I started out with zero knowledge of anything and he was there to witness it all and help me along the way, he showed exceptional work in the time we worked together in, I highly recommend him for any project no matter the rank as he showed he's capable of any task given to him and frankly I wouldn't be where I am within the community without his help.",
+    content: "My experience with deshaj has been nothing short of an exceptional time for me, I started out with zero knowledge of anything and he was there to witness it all and help me along the way, he showed exceptional work in the time we worked together in, I highly recommend him for any project no matter the rank as he showed he's capable of any task given to him and frankly I wouldn't be where I am within the community without his help",
     rating: 5,
     avatar_url: "https://cdn.discordapp.com/avatars/759154083378233370/6c84e2f3c13b16afc9787eda15bd6ce7.png?size=256"
   }
